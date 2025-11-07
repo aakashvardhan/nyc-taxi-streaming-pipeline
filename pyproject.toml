@@ -1,0 +1,13 @@
+[project]
+name = "nyc-taxi-streaming-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "kafka-python==2.0.2",
+    "pyarrow==17.0.0",
+    "pytest>=8.4.2",
+    "python-dateutil>=2.9.0.post0",
+    "requests==2.32.3",
+]
